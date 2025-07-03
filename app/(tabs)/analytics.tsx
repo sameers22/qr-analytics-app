@@ -10,7 +10,7 @@ export default function AnalyticsScreen() {
   if (!text || !name) {
     return (
       <View style={styles.container}>
-        <Text style={styles.errorText}>Missing QR data. Please go back and try again.</Text>
+        <Text style={styles.errorText}>Missing QR data. Please go back and select a project.</Text>
       </View>
     );
   }
